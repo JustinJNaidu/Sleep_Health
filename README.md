@@ -28,3 +28,22 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 
 `sleep_report.Rmd`
 - Generates the `sleep_report.html` output file.
+
+
+## Contents in the GitHub repository:
+1. `raw_data` directory
+- `ss.csv`
+2. `code` directory
+- `00_clean_data.R`
+- `01_make_table.R`
+- `02_make_scatter.R`
+- `03_render_report.R`
+- `sleep_report.Rmd`
+- `README.md`
+- `Makefile`
+3. `output` directory
+- `data_clean.rds`
+- `table_one.rds`
+- `scatterplot_png`
+4. `report` directory
+- empty at the moment
