@@ -51,3 +51,6 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - `.gitignore`
 - `renv.lock`
 - `activate.R`
+6. `.gitignore` file ignores the following :
+	- all `.rds` files and `.png` files in the `output` directory
+	- all `.html` files in the project directory
