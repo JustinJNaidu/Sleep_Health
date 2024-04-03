@@ -5,3 +5,7 @@ lock/
 python/
 sandbox/
 staging/
+
+output/*.rds
+output/*.png
+*.html

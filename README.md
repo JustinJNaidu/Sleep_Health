@@ -47,3 +47,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - `scatterplot_png`
 4. `report` directory
 - contains a `Test.R` file as a placeholder
+5. `renv` directory
+- `.gitignore`
+- `renv.lock`
+- `activate.R`
