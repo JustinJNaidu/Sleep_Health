@@ -15,7 +15,7 @@ output/table_one.rds: code/01_make_table.R output/data_clean.rds
 output/scatterplot.png: code/02_make_scatter.R output/data_clean.rds
 	Rscript code/02_make_scatter.R
 
-# Make rule to restore package library
+# Make install rule to restore package library
 .PHONY: install
 install:
 	Rscript -e "renv::restore(prompt = FALSE)"
