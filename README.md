@@ -46,4 +46,4 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - `table_one.rds`
 - `scatterplot_png`
 4. `report` directory
-- empty at the moment
+- contains a `Test.R` file as a placeholder
