@@ -6,6 +6,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - A scatter plot illustrating the relationships.
 - Text discussing the table and the figure, providing insights and interpretations.
 
+
 ## Code Description
 `code/00_clean_data.R`
 - Cleaned version of raw data file.
@@ -28,6 +29,12 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 
 `sleep_report.Rmd`
 - Generates the `sleep_report.html` output file.
+
+
+## Package Repository
+1. Enter "make sleep_report.html" in the terminal to generate the report.
+2. Enter "make clean" in the terminal to delete all outputs.
+3. Enter "make install" in the terminal to synchronize the package repository.
 
 
 ## Contents in the GitHub repository:
@@ -54,3 +61,4 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 6. `.gitignore` file ignores the following :
 	- all `.rds` files and `.png` files in the `output` directory
 	- all `.html` files in the project directory
+
