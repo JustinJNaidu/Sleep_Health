@@ -68,7 +68,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - Replace <your_image_name> with whatever you would like your image to be called.
 
 2. Link to the image on DockerHub
-- https://hub.docker.com/repository/docker/justinnaidu/project_image
+- https://hub.docker.com/repository/docker/justinnaidu/sleep_project
 
 3. Run the automated version of the image
 - Use "make project_image" in the terminal to build the image automatically;

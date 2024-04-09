@@ -10,6 +10,8 @@ RUN mkdir output
 COPY code code
 COPY Makefile .
 COPY sleep_report.Rmd .
+COPY raw_data/ss.csv raw_data/ .
+
 
 COPY .Rprofile .
 COPY renv.lock .

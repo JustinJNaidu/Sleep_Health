@@ -24,7 +24,7 @@ install:
 clean:
 	rm -f output/*.rds && rm -f output/*.png && rm -f sleep_report.html
 
-PROJECTFILES = report.Rmd code/00_clean_data.R code/01_make_table.R code/02_make_scatter.R code/03_render_report.R raw_data/ss.csv Makefile README.md .gitignore  
+PROJECTFILES = sleep_report.Rmd code/00_clean_data.R code/01_make_table.R code/02_make_scatter.R code/03_render_report.R raw_data/ss.csv Makefile README.md .gitignore  
 RENVFILES = renv.lock renv/activate.R renv/settings.json .Rprofile
 
 project_image: Dockerfile $(PROJECTFILES) $(RENVFILES)
@@ -33,8 +33,8 @@ project_image: Dockerfile $(PROJECTFILES) $(RENVFILES)
 
 # For Windows Users
 docker-run:
-	docker run -v "/$$(pwd)"/report:/project/report justinnaidu/project_image
+	docker run -v "/$$(pwd)"/report:/project/report justinnaidu/sleep_project
 
 # For Mac Users
 docker-run-m:
-	docker run -v "$$(pwd)"/report:/project/report justinnaidu/project_image
+	docker run -v "$$(pwd)"/report:/project/report justinnaidu/sleep_project
