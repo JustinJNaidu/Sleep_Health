@@ -27,8 +27,9 @@ clean:
 PROJECTFILES = sleep_report.Rmd code/00_clean_data.R code/01_make_table.R code/02_make_scatter.R code/03_render_report.R raw_data/ss.csv Makefile README.md .gitignore  
 RENVFILES = renv.lock renv/activate.R renv/settings.json .Rprofile
 
-project_image: Dockerfile $(PROJECTFILES) $(RENVFILES)
-	docker build -t project_image .
+# Project Image
+sleep_project: Dockerfile $(PROJECTFILES) $(RENVFILES)
+	docker build -t sleep_project .
 	touch $@
 
 # For Windows Users
