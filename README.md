@@ -55,10 +55,25 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 4. `report` directory
 - contains a `Test.R` file as a placeholder
 5. `renv` directory
-- `.gitignore`
 - `renv.lock`
 - `activate.R`
 6. `.gitignore` file ignores the following :
 	- all `.rds` files and `.png` files in the `output` directory
 	- all `.html` files in the project directory
 
+## Docker Container
+1. Build the image 
+- In a terminal, `cd` to the directory that contains the `Dockerfile`
+`docker build -t <your_image_name> .`
+- Replace <your_image_name> with whatever you would like your image to be called.
+
+2. Link to the image on DockerHub
+- https://hub.docker.com/repository/docker/justinnaidu/project_image
+
+3. Run the automated version of the image
+- Use "make project_image" in the terminal to build the image automatically;
+
+4. Build the report automatically
+If you are using git bash on Windows: 
+- Use "make docker-run" in the terminal to build the report automatically.
+- If you are using git on Mac/Linux: Use "make docker-run-m" instead.
