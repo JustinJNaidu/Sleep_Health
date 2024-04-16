@@ -63,8 +63,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 
 ## Docker Container
 1. Building image 
-- In a terminal, `cd` to the directory that contains the `Dockerfile`
-`docker build -t <your_image_name> .`
+- In the terminal, navigate to the directory containing the `Dockerfile` using the `cd` command, then execute `docker build -t <your_image_name> .`
 - Replace <your_image_name> with whatever you would like your image to be called.
 
 2. Image link on DockerHub
@@ -73,8 +72,8 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 3. Run the automated version of the image
 - Use "make sleep_project" in the terminal to build the image automatically;
 
-4. Build the report automatically
+4. Build report automatically
 Git bash on Windows: 
-- Use "make docker-run" in the terminal to build the report automatically.
+- Use "make docker-run" in the terminal.
 Git bash on Mac: 
-- Use "make docker-run-m" instead.
+- Use "make docker-run-m" in the terminal.
