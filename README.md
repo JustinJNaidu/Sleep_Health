@@ -71,7 +71,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - https://hub.docker.com/repository/docker/justinnaidu/sleep_project
 
 3. Run the automated version of the image
-- Use "make project_image" in the terminal to build the image automatically;
+- Use "make sleep_project" in the terminal to build the image automatically;
 
 4. Build the report automatically
 Git bash on Windows: 
