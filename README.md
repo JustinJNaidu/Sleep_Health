@@ -62,18 +62,19 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 	- all `.html` files in the project directory
 
 ## Docker Container
-1. Build the image 
+1. Building image 
 - In a terminal, `cd` to the directory that contains the `Dockerfile`
 `docker build -t <your_image_name> .`
 - Replace <your_image_name> with whatever you would like your image to be called.
 
-2. Link to the image on DockerHub
+2. Image link on DockerHub
 - https://hub.docker.com/repository/docker/justinnaidu/sleep_project
 
 3. Run the automated version of the image
 - Use "make project_image" in the terminal to build the image automatically;
 
 4. Build the report automatically
-If you are using git bash on Windows: 
+Git bash on Windows: 
 - Use "make docker-run" in the terminal to build the report automatically.
-- If you are using git on Mac/Linux: Use "make docker-run-m" instead.
+Git bash on Mac: 
+- Use "make docker-run-m" instead.
