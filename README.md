@@ -64,7 +64,7 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 ## Docker Container
 1. Building image 
 - In the terminal, navigate to the directory containing the `Dockerfile` using the `cd` command, then execute `docker build -t <your_image_name> .`
-- Replace <your_image_name> with whatever you would like your image to be called.
+- Replace `<your_image_name>` with any desired name for the image.
 
 2. Image link on DockerHub
 - https://hub.docker.com/repository/docker/justinnaidu/sleep_project

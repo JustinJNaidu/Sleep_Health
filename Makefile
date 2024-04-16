@@ -34,8 +34,8 @@ sleep_project: Dockerfile $(PROJECTFILES) $(RENVFILES)
 
 # For Windows Users
 docker-run:
-	docker run -v "/$$(pwd)"/report:/project/report justinnaidu/sleep_project
+	docker run -v "/$$(pwd)"/report:/project/report sleep_project
 
 # For Mac Users
 docker-run-m:
-	docker run -v "$$(pwd)"/report:/project/report justinnaidu/sleep_project
+	docker run -v "$$(pwd)"/report:/project/report sleep_project
