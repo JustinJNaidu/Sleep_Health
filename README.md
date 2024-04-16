@@ -73,7 +73,5 @@ In my report, "Exploring Variations in Sleep Duration Across Occupations," I pre
 - Use "make sleep_project" in the terminal to build the image automatically;
 
 4. Build report automatically
-Git bash on Windows: 
-- Use "make docker-run" in the terminal.
-Git bash on Mac: 
-- Use "make docker-run-m" in the terminal.
+- Git bash on Windows: Use "make docker-run" in the terminal.
+- Git bash on Mac: Use "make docker-run-m" in the terminal.

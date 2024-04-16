@@ -7,11 +7,13 @@ WORKDIR /project
 
 RUN mkdir code
 RUN mkdir output
+RUN mkdir raw_data
 COPY code code
 COPY Makefile .
 COPY sleep_report.Rmd .
-COPY raw_data/ss.csv raw_data/ .
-
+COPY README.md .
+COPY raw_data raw_data
+COPY .gitignore .
 
 COPY .Rprofile .
 COPY renv.lock .
