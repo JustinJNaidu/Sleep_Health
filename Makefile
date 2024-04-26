@@ -2,6 +2,7 @@
 sleep_report.html: sleep_report.Rmd code/03_render_report.R output/data_clean.rds output/table_one.rds \
  output/scatterplot.png
 	Rscript code/03_render_report.R
+	mv sleep_report.html report/
 
 # Clean data rule
 output/data_clean.rds: code/00_clean_data.R raw_data/ss.csv
